@@ -5,11 +5,10 @@ To write a python program to find the inverse of a matrix
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step 1: Create an augmented matrix by placing an $n \times n$ Identity matrix (1s on the diagonal, 0s elsewhere) to the right of your original matrix.for Gauss-Jordan elimination]
-### Step 2: Select the first row and divide the entire row by its first element (the pivot) so that the first number becomes 1.
-### Step 3: For all other rows, subtract a multiple of that first row from them so that every other number in the first column becomes 0.
-### Step 4: Move to the next diagonal element (the second row, second column) and repeat Steps 2 and 3 until every diagonal element is 1 and all other elements in their columns are 0.
-### Step 5: Once the left side of your augmented matrix is the Identity matrix, the right side is your Inverse.
+### Step 1: Import the numpy module to use the built-in functions for calculation
+### Step 2: Prepare the lists from each linear equations and assign in np.array()
+### Step 3: Using the np.linalg.inv(), we can find the inverse of the given matrix.
+### Step 4: End the program
 
 ## Program:
 ```
